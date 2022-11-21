@@ -1,0 +1,150 @@
+.container {
+    top: 10%;
+    left: 70px;
+}
+h1 {
+    color: #fff;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    margin-bottom: 120px;
+}
+.contact-form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    top: 40%;
+
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+
+
+    .flat-button {
+        color: #FB2576;
+        background: 0 0;
+        font: 11px;
+        letter-spacing: 3px;
+        text-decoration: none;
+        padding: 8px 10px;
+        border: 1px solid #FB2576;
+        float: right;
+        border-radius: 4px;
+    }
+
+    .project {
+        border: 2px solid #FB2576;
+        margin: 20px;
+        margin-bottom: 10px;
+        padding: 20px;
+        color: #fff;
+        width: 30%;
+        transform: translateY(-50%);
+        border-radius: 20px;
+        box-shadow: 0 0 20px 0px lightpink;
+        font-size: 12px;
+    
+        &:hover {
+            background-color: #000000;
+        }
+        
+    }
+    h1 {
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        &::before {
+            content: '<h1>';
+            font-family: 'La Belle Aurora';
+            color: #FB2576;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: 0.6;
+        }
+
+        &::after {
+            content: '<h1/>';
+            font-family: 'La Belle Aurora';
+            color: #FB2576;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: 0.6;
+        }
+
+        img {
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+
+        }
+    }
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C45A9B;
+    border-radius: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+        color: #c45a9b;
+    }
+  }
