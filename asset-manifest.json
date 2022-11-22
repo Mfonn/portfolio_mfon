@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_mfon/static/css/main.b359e41b.css",
-    "main.js": "/portfolio_mfon/static/js/main.0743e13b.js",
+    "main.js": "/portfolio_mfon/static/js/main.1b4d75a9.js",
     "static/js/787.fb771931.chunk.js": "/portfolio_mfon/static/js/787.fb771931.chunk.js",
     "static/media/helvetica-neu.ttf": "/portfolio_mfon/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/portfolio_mfon/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
@@ -9,11 +9,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/portfolio_mfon/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/portfolio_mfon/index.html",
     "main.b359e41b.css.map": "/portfolio_mfon/static/css/main.b359e41b.css.map",
-    "main.0743e13b.js.map": "/portfolio_mfon/static/js/main.0743e13b.js.map",
+    "main.1b4d75a9.js.map": "/portfolio_mfon/static/js/main.1b4d75a9.js.map",
     "787.fb771931.chunk.js.map": "/portfolio_mfon/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b359e41b.css",
-    "static/js/main.0743e13b.js"
+    "static/js/main.1b4d75a9.js"
   ]
 }
