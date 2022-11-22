@@ -7,7 +7,7 @@ import './index.css'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <BrowserRouter basename="https://mfonn.github.io/portfolio_mfon/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <App />
     </BrowserRouter>
 )
