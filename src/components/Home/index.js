@@ -12,10 +12,13 @@ const Home = () => {
                 <h1>
                     Hi,
                 <br />
-               I'm Mfon
-                
-                <img src={LogoTitle} alt='developer' />
+               
+                I'm Mfon,
 
+                <img src={LogoTitle} alt='developer' />
+                <br />
+                
+                A Software Developer
                
                 </h1>
                 <h2>Devops / Technical Writing</h2>
