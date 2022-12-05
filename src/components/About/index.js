@@ -1,5 +1,4 @@
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAws, faDocker, faGitAlt, faLinux, faSquareJs, faHashnode } from '@fortawesome/free-brands-svg-icons'
@@ -8,26 +7,15 @@ import Loader from 'react-loaders'
 
 const About = () => {
 
-const {letterClass, setLetterClass} = useState('text-animate')
-
-useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
+  
 
     return (
         <>
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
-                    <AnimatedLetters
-                        letterClass={letterClass}
-                        strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-                        idx={15}
-                    />
+                   About Me
                 </h1>
                 <p>
                     I am an ambitious Software Developer looking for an 

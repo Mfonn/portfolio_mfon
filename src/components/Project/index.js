@@ -25,12 +25,12 @@ const Contact = () => {
                         </div>
 
                         <div className='project project-3'>
-                        <h3 class="setup">Laravel Project Using Digital Ocean, php, MySQL and APache server</h3>
-                        <h3><a href="https://github.com/Mfonn/altsch_mini_project">Click to View</a></h3>
+                        <h3 class="setup">AI project Using OpenAI GPT-3</h3>
+                        <h3><a href="https://ghost-stories.netlify.app/">Click to View</a></h3>
                         <ul class="list">
-                            <li>Setup Debain 11 on a virtual machine instance with Digital Ocean</li>
-                            <li>Setup Apache2 server with dependencies</li>
-                            <li>Setup MySQL with credentials and a database</li>
+                            <li>Created an AI project that auto generates ghost stories</li>
+                            <li>Used Openai's GPT-3 Davinci Model</li>
+                            <li>Used React and deployed on Netlify</li>
                         </ul>
                         </div>
 
@@ -44,6 +44,19 @@ const Contact = () => {
                             <li>Actively participated in Agile meetings to brainstorm on a problem space and bring ideas on how to pitch product.</li>
                         </ul>
                         </div>
+
+
+                        <div className='project project-3'>
+                        <h3 class="setup">Laravel Project Using Digital Ocean, php, MySQL and APache server</h3>
+                        <h3><a href="https://github.com/Mfonn/altsch_mini_project">Click to View</a></h3>
+                        <ul class="list">
+                            <li>Setup Debain 11 on a virtual machine instance with Digital Ocean</li>
+                            <li>Setup Apache2 server with dependencies</li>
+                            <li>Setup MySQL with credentials and a database</li>
+                        </ul>
+                        </div>
+
+
 
                         <div className='project project-5'>
                         <h3 class="setup">Containerized Django and React Application using Docker, Nginx and Digital Ocean</h3>
