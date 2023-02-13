@@ -21,7 +21,7 @@
     "react-loaders": "^3.0.1",
     "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "sass": "^1.56.1",
+    "sass": "^1.57.1",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
