@@ -148,3 +148,38 @@ h1 {
         color: #c45a9b;
     }
   }
+
+  @media only screen and (max-width: 900px) {
+    h1 {
+      margin-bottom: 25%;
+    }
+
+    .nav-bar {
+        height: 110vh;
+    }
+
+    .project {
+        width: 60%;
+        margin: auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      margin-bottom: 40%;
+    }
+
+    .nav-bar {
+        height: 110vh;
+    }
+
+    .project {
+        width: 60% !important;
+        margin: auto !important;
+        margin-bottom: 10% !important;
+    }
+
+    .project-8 {
+        margin-bottom: 28% !important;
+    }
+  }

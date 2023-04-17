@@ -1,7 +1,7 @@
 import './index.scss'
 import { useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAws, faDocker, faGitAlt, faLinux, faSquareJs, faHashnode } from '@fortawesome/free-brands-svg-icons'
+import { faAws, faDocker, faGitAlt, faLinux, faSquareJs } from '@fortawesome/free-brands-svg-icons'
 import { faPen } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 
@@ -18,27 +18,48 @@ const About = () => {
                    About Me
                 </h1>
                 <p>
-                    I am an ambitious Software Developer looking for an 
-                    opportunity to work with challenging and diverse projects.
+                    A Software Engineer curious about technology
                 </p>
                 <p>
-                    I am naturally curious, I have strong problem-solving skills,
-                    Empathetic with great time management skills.
+                    and enjoying the process of finding solutions to problems.
                 </p>
                 <p>
-                    I enjoy writing, talking and socializing with others. 
-                    <br/>
-                    My Technical Blog hosted on Hashnode:   
+                    When faced with a problem, ask yourself, 'Is it impossible or is it hard?'
+                    </p>
                     <br />
-                           <p> <a 
+                    <br />
+                    <p>
+                    Technical Blog :     
+                           <a 
                     target="_blank"
                     rel="noreferrer"
                     href="https://mfon.hashnode.dev/"
                     >
-                        <FontAwesomeIcon icon={faHashnode} color="blue" />
-                        Click To View
+                           Click To View
             </a>
+        
             </p>
+            <p>
+                    Github :  
+                         <a 
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/Mfonn"
+                    >
+                          Click To View
+            </a>
+        
+            </p>
+            <p>
+                    linkedin :   
+                            <a 
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://www.linkedin.com/in/mfonnta/"
+                    >
+                         
+                           Click To View
+            </a>
                 </p>
             </div>
 

@@ -18,7 +18,7 @@ const Home = () => {
                 <img src={LogoTitle} alt='developer' />
                 <br />
                 
-                A Software Developer
+                A Software Engineer
                
                 </h1>
                 <h2>Devops / Technical Writing</h2>

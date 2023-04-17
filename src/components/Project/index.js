@@ -13,12 +13,12 @@ const Contact = () => {
                         <div className='project project-1'>
                             <h2>Open Source Contribution</h2>
 
-                            <h3 class="baby_header"> Outreachy Contributions with ChRIS Project<a href="http://chrisproject.org/"> Click To View</a></h3>
+                            <h3 class="baby_header"> Outreachy OpenSource Contributions with ChRIS Project<a href="http://chrisproject.org/"> Click To View</a></h3>
                            <ul class="list">
                                 <li>Software Testing and Validation</li>
-                                <li>Source and Version Control</li>
+                                <li>DevOps Principles</li>
                                 <li>Linux, Docker, Kubernetes</li>
-                                <li>Continuous Integration</li>
+                                <li>Continuous Integration/Continuous Delivery</li>
                                 <li>Antora, Asciidoc, Markdown</li>
                             </ul>
 
@@ -34,22 +34,11 @@ const Contact = () => {
                         </ul>
                         </div>
 
-                        <div className='project project-4'>
-                        <h3 class="setup">Technical Writer for HealthTech Startup</h3>
-                        <h3><a href="https://igetbelle.com/news">Click to View</a></h3>
-                        <ul class="list">
-                            <li>Wrote SEO articles on management of health conditions</li>
-                            <li>Managed Social Media accounts</li>
-                            <li>Used Google Cloud Platform for admin management of Software services.</li>
-                            <li>Actively participated in Agile meetings to brainstorm on a problem space and bring ideas on how to pitch product.</li>
-                        </ul>
-                        </div>
-
-
                         <div className='project project-3'>
                         <h3 class="setup">Laravel Project Using Digital Ocean, php, MySQL and APache server</h3>
                         <h3><a href="https://github.com/Mfonn/altsch_mini_project">Click to View</a></h3>
                         <ul class="list">
+                            <li>DevOps project using Debian, Apache, MySQL</li>
                             <li>Setup Debain 11 on a virtual machine instance with Digital Ocean</li>
                             <li>Setup Apache2 server with dependencies</li>
                             <li>Setup MySQL with credentials and a database</li>
@@ -62,6 +51,7 @@ const Contact = () => {
                         <h3 class="setup">Containerized Django and React Application using Docker, Nginx and Digital Ocean</h3>
                         <h3><a href="https://github.com/Mfonn/hng2">Click To View</a></h3>
                         <ul class="list">
+                            <li>DevOps project using Docker, Django, NGINX</li>
                             <li>Created Docker images for React and Django application and uploaded to Docker Hub</li>
                             <li>Created a Docker-compose file that spun up images into containers and connected with each other</li>
                             <li>Used reverse proxy in NGINX to point port 3000 to server</li>
@@ -72,11 +62,24 @@ const Contact = () => {
                         <h3 class="setup">Ansible Playbook to Setup Containerized Application on a remote server</h3>
                         <h3><a href="https://github.com/Mfonn/Ansible-ChRIS">Click To View</a></h3>
                         <ul class="list">
+                            <li>DevOps project using Docker, and Infrastructure as Code.</li>
                             <li>Install Docker and docker-compose on remote server</li>
                             <li>Added Docker to sudo group</li>
                             <li>Cloned repository and got application running on port `8000`</li>
                         </ul>
                         </div>
+
+                        <div className='project project-4'>
+                        <h3 class="setup">Technical Writer for HealthTech Startup</h3>
+                        <h3><a href="https://igetbelle.com/news">Click to View</a></h3>
+                        <ul class="list">
+                            <li>Wrote SEO articles on management of health conditions</li>
+                            <li>Managed Social Media accounts</li>
+                            <li>Used Google Cloud Platform for admin management of Software services.</li>
+                            <li>Actively participated in Agile meetings to brainstorm on a problem space and bring ideas on how to pitch product.</li>
+                        </ul>
+                        </div>
+
 
                         <div className='project project-7'>
                         <h3 class="setup">Colab Project</h3>
