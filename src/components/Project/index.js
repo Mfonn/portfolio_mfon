@@ -26,7 +26,7 @@ const Contact = () => {
 
                         <div className='project project-3'>
                         <h3 class="setup">AI project Using OpenAI GPT-3</h3>
-                        <h3><a href="https://ghost-stories.netlify.app/">Click to View</a></h3>
+                        <h3><a href="https://diagnosis-my-patient.netlify.app/">Click to View</a></h3>
                         <ul class="list">
                             <li>Created an AI project that auto generates diagnosis based on Symptoms</li>
                             <li>Used Openai's GPT-3 Davinci Model</li>
