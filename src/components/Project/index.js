@@ -28,12 +28,12 @@ const Contact = () => {
                         <h3 class="setup">AI project Using OpenAI GPT-3</h3>
                         <h3><a href="https://ghost-stories.netlify.app/">Click to View</a></h3>
                         <ul class="list">
-                            <li>Created an AI project that auto generates ghost stories</li>
+                            <li>Created an AI project that auto generates diagnosis based on Symptoms</li>
                             <li>Used Openai's GPT-3 Davinci Model</li>
                             <li>Used React and deployed on Netlify</li>
                         </ul>
                         </div>
-
+{/* 
                         <div className='project project-3'>
                         <h3 class="setup">Laravel Project Using Digital Ocean, php, MySQL and APache server</h3>
                         <h3><a href="https://github.com/Mfonn/altsch_mini_project">Click to View</a></h3>
@@ -43,9 +43,9 @@ const Contact = () => {
                             <li>Setup Apache2 server with dependencies</li>
                             <li>Setup MySQL with credentials and a database</li>
                         </ul>
-                        </div>
+                        </div> */}
 
-
+{/* 
 
                         <div className='project project-5'>
                         <h3 class="setup">Containerized Django and React Application using Docker, Nginx and Digital Ocean</h3>
@@ -56,9 +56,9 @@ const Contact = () => {
                             <li>Created a Docker-compose file that spun up images into containers and connected with each other</li>
                             <li>Used reverse proxy in NGINX to point port 3000 to server</li>
                         </ul>
-                        </div>
+                        </div> */}
 
-                        <div className='project project-6'>
+                        {/* <div className='project project-6'>
                         <h3 class="setup">Ansible Playbook to Setup Containerized Application on a remote server</h3>
                         <h3><a href="https://github.com/Mfonn/Ansible-ChRIS">Click To View</a></h3>
                         <ul class="list">
@@ -67,15 +67,17 @@ const Contact = () => {
                             <li>Added Docker to sudo group</li>
                             <li>Cloned repository and got application running on port `8000`</li>
                         </ul>
-                        </div>
+                        </div> */}
 
                         <div className='project project-4'>
-                        <h3 class="setup">Technical Writer for HealthTech Startup</h3>
+                        <h3 class="setup">Co-Founder for HealthTech Startup</h3>
                         <h3><a href="https://igetbelle.com/news">Click to View</a></h3>
                         <ul class="list">
                             <li>Wrote SEO articles on management of health conditions</li>
-                            <li>Managed Social Media accounts</li>
-                            <li>Used Google Cloud Platform for admin management of Software services.</li>
+                            <li>Created AI Chatbot using Diagflow to provide Obstetric consultancy services to users</li>
+                            <li>Gathered and documented data for diagnosis for AI to gain knowledge from.</li>
+                            {/* <li>Managed Social Media accounts</li>
+                            <li>Used Google Cloud Platform for admin management of Software services.</li> */}
                             <li>Actively participated in Agile meetings to brainstorm on a problem space and bring ideas on how to pitch product.</li>
                         </ul>
                         </div>
