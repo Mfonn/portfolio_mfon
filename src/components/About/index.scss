@@ -1,5 +1,5 @@
 .stage-cube-cont {
-    width: 50%;
+    width: 25%;
     height: 100%;
     top: 0;
     padding-top: 18%;
@@ -9,6 +9,18 @@
     overflow: hidden;
 }
 
+
+.stage-cube-cont2 {
+  width: 25%;
+  height: 100%;
+  top: 0;
+  padding-top: 18%;
+  margin-right: 0;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;
@@ -16,7 +28,7 @@
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+    margin-right: calc(50% - 100px);
 
     div {
         position: absolute;

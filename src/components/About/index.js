@@ -13,54 +13,53 @@ const About = () => {
     return (
         <>
         <div className='container about-page'>
+        <div className='stage-cube-cont2'>
+                <div className='cubespinner'>
+                    <div className='face1'>
+                        <FontAwesomeIcon icon={faDocker} color="#7FC8F8" />
+                    </div>
+                    <div className='face2'>
+                        <FontAwesomeIcon icon={faPen} color='#000000' />
+                    </div>
+                    <div className='face3'>
+                        <FontAwesomeIcon icon={faLinux} color="#FFBC42" />
+                    </div>
+                    <div className='face4'>
+                        <FontAwesomeIcon icon={faAws} color='#000000' />
+                    </div>
+                    <div className='face5'>
+                        <FontAwesomeIcon icon={faSquareJs} color="#000000" />
+                    </div>
+                    <div className='face6'>
+                        <FontAwesomeIcon icon={faGitAlt} color="#A04203" />
+                    </div>
+                </div>
+            </div>
+
             <div className='text-zone'>
                 <h1>
                    About Me
                 </h1>
                 <p>
-                    A Software Engineer curious about technology
+                   
+                    Greetings! I'm a dedicated Medical Doctor on a dynamic exploration at the intersection of healthcare and cutting-edge technologies.
+                    <br />
+                     In the world of Medical Devices, I envision transformative solutions, pushing the boundaries of patient care and healthcare delivery. 
+                       </p>
+                <p>
+                My interests extend to Machine Learning and Scientific Research, where data insights drive innovation in medical knowledge.
+                <br />
+                      Embracing the future, I explore synergies between Robotics and Health Tech, 
+                      <br />
+                      envisioning automation that elevates diagnostics and treatment experiences.
+
                 </p>
                 <p>
-                    and enjoying the process of finding solutions to problems.
-                </p>
-                <p>
-                    When faced with a problem, ask yourself, 'Is it impossible or is it hard?'
+                   <em> When faced with a problem, ask yourself, 'Is it impossible or is it hard?' </em>
                     </p>
                     <br />
                     <br />
-                    <p>
-                    Technical Blog :     
-                           <a 
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://mfon.hashnode.dev/"
-                    >
-                           Click To View
-            </a>
-        
-            </p>
-            <p>
-                    Github :  
-                         <a 
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/Mfonn"
-                    >
-                          Click To View
-            </a>
-        
-            </p>
-            <p>
-                    linkedin :   
-                            <a 
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://www.linkedin.com/in/mfonnta/"
-                    >
-                         
-                           Click To View
-            </a>
-                </p>
+
             </div>
 
             <div className='stage-cube-cont'>

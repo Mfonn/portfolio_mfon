@@ -13,15 +13,15 @@ const Home = () => {
                     Hi,
                 <br />
                
-                I'm Mfon,
+                I'm Mfon
 
                 <img src={LogoTitle} alt='developer' />
-                <br />
-                
-                A Software Engineer
                
+               <br />
                 </h1>
-                <h2>Devops / Technical Writing</h2>
+                <br />
+                <br />
+              
                 <a href='mailto:mfonnta05@gmail.com' className='flat-button'>Contact Me</a>
             </div>
 
